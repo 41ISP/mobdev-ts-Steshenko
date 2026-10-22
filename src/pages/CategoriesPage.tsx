@@ -14,7 +14,7 @@ export default function CategoriesPage() {
         }
     })
         .filter(r => r.count > 0)
-        .sort ((a, b) => a.sum - b.sum )
+        .sort ((a, b) => a.sum + b.sum )
     return (
         <>
             <h1 className="title">По категориям</h1>
